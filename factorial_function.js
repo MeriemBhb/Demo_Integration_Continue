@@ -5,8 +5,4 @@ function calculerFactoriel(nombre) {
         return nombre * calculerFactoriel(nombre - 1);
     }
 }
-
-let nombre = 5;
-let resultat = calculerFactoriel(nombre);
-console.log("Le factoriel de", nombre, "est", resultat);
-
+module.exports = calculerFactoriel;
