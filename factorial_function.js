@@ -9,3 +9,4 @@ function calculerFactoriel(nombre) {
 let nombre = 5;
 let resultat = calculerFactoriel(nombre);
 console.log("Le factoriel de", nombre, "est", resultat);
+
