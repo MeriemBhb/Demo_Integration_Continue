@@ -1,0 +1,17 @@
+image: node
+
+stages:
+  - test
+  - -lint
+
+unit-test:
+  stage: test
+  script:
+    - npm install
+    - -npm run test
+
+prettier:
+  stage: lint
+  script:
+    - npm install
+    - npm run lint.check
