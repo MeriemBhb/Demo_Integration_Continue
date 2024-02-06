@@ -6,7 +6,7 @@ describe('calculerCombinaisons function', () => {
     });
 
     it('should return 1 for k equal to 0', () => {
-        expect(calculerCombinaisons(6, 0)).toBe(1);
+        expect(calculerCombinaisons(5, 0)).toBe(1);
     });
 
     it('should return 0 for k greater than n', () => {
